@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Courgette", cursive;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 2%;
+  background-color: #F2D388;
+}
+
+.quote {
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px #C98474;
+          box-shadow: 5px 5px 15px 5px #C98474;
+  cursor: pointer;
+  color: #F2D388;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+}
+
+h2 {
+  padding: 1%;
+  width: 40%;
+  text-align: center;
+  margin-left: 4rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px #C98474;
+          box-shadow: 5px 5px 15px 5px #C98474;
+  color: #C98474;
+}
+
+.quotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title-moon {
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px #C98474;
+          box-shadow: 5px 5px 15px 5px #C98474;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
